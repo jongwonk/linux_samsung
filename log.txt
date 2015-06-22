@@ -1,0 +1,100 @@
+Starting kernel ...                                                                                                                                                                 
+
+Uncompressing Linux... done, booting the kernel.                                                                                                                                    
+Booting Linux on physical CPU 0                                                                                                                                                     
+Linux version 3.4.0-rc2-g819aedc-dirty (jongwonk@debian) (gcc version 4.4.1 (Sourcery G++ Lite 2010q1-202) ) #31 PREEMPT Sat May 23 18:20:53 PDT 2015                               
+CPU: ARMv7 Processor [412fc082] revision 2 (ARMv7), cr=10c53c7d                                                                                                                     
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache                                                                                                            
+Machine: SMDKV210                                                                                                                                                                   
+Ignoring unrecognised tag 0x41001099                                                                                                                                                
+Truncating RAM at 40000000-4fffffff to -4f7fffff (vmalloc region overlap).                                                                                                          
+Memory policy: ECC disabled, Data cache writeback                                                                                                                                   
+CPU S5PV210/S5PC110 (id 0x43110200)                                                                                                                                                 
+S3C24XX Clocks, Copyright 2004 Simtec Electronics                                                                                                                                   
+S5PV210: PLL settings, A=800000000, M=667000000, E=80000000 V=54000000                                                                                                              
+S5PV210: ARMCLK=800000000, HCLKM=200000000, HCLKD=166750000                                                                                                                         
+HCLKP=133400000, PCLKM=100000000, PCLKD=83375000, PCLKP=66700000                                                                                                                    
+sclk_dmc: source is sclk_a2m (0), rate is 200000000                                                                                                                                 
+sclk_onenand: source is hclk_dsys (1), rate is 166750000                                                                                                                            
+sclk_fimc: source is ext_xtal (0), rate is 24000000                                                                                                                                 
+sclk_fimc: source is ext_xtal (0), rate is 24000000                                                                                                                                 
+sclk_fimc: source is ext_xtal (0), rate is 24000000                                                                                                                                 
+sclk_cam0: source is ext_xtal (0), rate is 24000000                                                                                                                                 
+sclk_cam1: source is ext_xtal (0), rate is 24000000                                                                                                                                 
+sclk_fimd: source is ext_xtal (0), rate is 24000000                                                                                                                                 
+sclk_mfc: source is sclk_a2m (0), rate is 200000000                                                                                                                                 
+sclk_g2d: source is sclk_a2m (0), rate is 200000000                                                                                                                                 
+sclk_g3d: source is sclk_a2m (0), rate is 200000000                                                                                                                                 
+sclk_csis: source is ext_xtal (0), rate is 24000000                                                                                                                                 
+sclk_pwi: source is ext_xtal (0), rate is 24000000                                                                                                                                  
+sclk_pwm: source is ext_xtal (0), rate is 24000000                                                                                                                                  
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 125456                                                                                                         
+Kernel command line: init=/init console=ttySAC1,115200 root=/dev/nfs rw nfsroot=192.168.1.71:/nfsroot/fs, nolock, tcp, rsize=4096, wsize=4096 ip=192.168.1.69:192.168.1.71:192.168.f
+PID hash table entries: 2048 (order: 1, 8192 bytes)                                                                                                                                 
+Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)                                                                                                                     
+Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)                                                                                                                      
+Memory: 256MB 48MB 192MB = 496MB total                                                                                                                                              
+Memory: 497336k/505528k available, 10568k reserved, 0K highmem                                                                                                                      
+Virtual kernel memory layout:                                                                                                                                                       
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)                                                                                                                                   
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)                                                                                                                                   
+    vmalloc : 0xf0000000 - 0xff000000   ( 240 MB)                                                                                                                                   
+    lowmem  : 0xc0000000 - 0xef800000   ( 760 MB)                                                                                                                                   
+    modules : 0xbf000000 - 0xc0000000   (  16 MB)                                                                                                                                   
+      .text : 0xc0008000 - 0xc0522160   (5225 kB)                                                                                                                                   
+      .init : 0xc0523000 - 0xc054a000   ( 156 kB)                                                                                                                                   
+      .data : 0xc054a000 - 0xc058d5c0   ( 270 kB)                                                                                                                                   
+       .bss : 0xc058d5e4 - 0xc05e43ec   ( 348 kB)                                                                                                                                   
+SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1                                                                                                             
+NR_IRQS:208                                                                                                                                                                         
+VIC @f6000000: id 0x00041192, vendor 0x41                                                                                                                                           
+VIC @f6010000: id 0x00041192, vendor 0x41                                                                                                                                           
+VIC @f6020000: id 0x00041192, vendor 0x41                                                                                                                                           
+VIC @f6030000: id 0x00041192, vendor 0x41                                                                                                                                           
+sched_clock: 32 bits at 33MHz, resolution 29ns, wraps every 128784ms                                                                                                                
+Console: colour dummy device 80x30                                                                                                                                                  
+Calibrating delay loop... 796.26 BogoMIPS (lpj=1990656)                                                                                                                             
+pid_max: default: 32768 minimum: 301                                                                                                                                                
+Mount-cache hash table entries: 512                                                                                                                                                 
+CPU: Testing write buffer coherency: ok                                                                                                                                             
+Setting up static identity map for 0x203daa68 - 0x203daac0                                                                                                                          
+gpiochip_add: registered GPIOs 0 to 7 on device: GPA0                                                                                                                               
+gpiochip_add: registered GPIOs 9 to 12 on device: GPA1                                                                                                                              
+gpiochip_add: registered GPIOs 14 to 21 on device: GPB                                                                                                                              
+gpiochip_add: registered GPIOs 23 to 27 on device: GPC0                                                                                                                             
+gpiochip_add: registered GPIOs 29 to 33 on device: GPC1                                                                                                                             
+gpiochip_add: registered GPIOs 35 to 38 on device: GPD0                                                                                                                             
+gpiochip_add: registered GPIOs 40 to 45 on device: GPD1                                                                                                                             
+gpiochip_add: registered GPIOs 47 to 54 on device: GPE0                                                                                                                             
+gpiochip_add: registered GPIOs 56 to 60 on device: GPE1                                                                                                                             
+gpiochip_add: registered GPIOs 62 to 69 on device: GPF0                                                                                                                             
+gpiochip_add: registered GPIOs 71 to 78 on device: GPF1                                                                                                                             
+gpiochip_add: registered GPIOs 80 to 87 on device: GPF2                                                                                                                             
+gpiochip_add: registered GPIOs 89 to 94 on device: GPF3                                                                                                                             
+gpiochip_add: registered GPIOs 96 to 102 on device: GPG0                                                                                                                            
+gpiochip_add: registered GPIOs 104 to 110 on device: GPG1                                                                                                                           
+gpiochip_add: registered GPIOs 112 to 118 on device: GPG2                                                                                                                           
+gpiochip_add: registered GPIOs 120 to 126 on device: GPG3                                                                                                                           
+gpiochip_add: registered GPIOs 164 to 170 on device: GPI                                                                                                                            
+gpiochip_add: registered GPIOs 172 to 179 on device: GPJ0                                                                                                                           
+gpiochip_add: registered GPIOs 181 to 186 on device: GPJ1                                                                                                                           
+gpiochip_add: registered GPIOs 188 to 195 on device: GPJ2                                                                                                                           
+gpiochip_add: registered GPIOs 197 to 204 on device: GPJ3                                                                                                                           
+gpiochip_add: registered GPIOs 206 to 210 on device: GPJ4                                                                                                                           
+gpiochip_add: registered GPIOs 212 to 219 on device: MP01                                                                                                                           
+gpiochip_add: registered GPIOs 221 to 224 on device: MP02                                                                                                                           
+gpiochip_add: registered GPIOs 226 to 233 on device: MP03                                                                                                                           
+gpiochip_add: registered GPIOs 235 to 242 on device: MP04                                                                                                                           
+gpiochip_add: registered GPIOs 244 to 251 on device: MP05                                                                                                                           
+gpiochip_add: registered GPIOs 128 to 135 on device: GPH0                                                                                                                           
+gpiochip_add: registered GPIOs 137 to 144 on device: GPH1                                                                                                                           
+gpiochip_add: registered GPIOs 146 to 153 on device: GPH2                                                                                                                           
+gpiochip_add: registered GPIOs 155 to 162 on device: GPH3                                                                                                                           
+dummy:                                                                                                                                                                              
+NET: Registered protocol family 16                                                                                                                                                  
+S3C Power Management, Copyright 2004 Simtec Electronics                                                                                                                             
+Registered chained gpio int handler for interrupt 62.                                                                                                                               
+Registered interrupt support for gpio group 4.                                                                                                                                      
+Registered interrupt support for gpio group 1.                                                                                                                                      
+S5PV210: Initializing architecture                                                                                                                                                  
+s3c24xx-pwm s3c24xx-pwm.3: tin at 33350000, tdiv at 33350000, tin=divclk, base 16                       

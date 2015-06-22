@@ -1,0 +1,751 @@
+Binary file fs/fs-writeback.o matches
+Binary file fs/block_dev.o matches
+Binary file fs/built-in.o matches
+Binary file fs/proc_namespace.o matches
+Binary file fs/ramfs/built-in.o matches
+Binary file fs/ramfs/inode.o matches
+Binary file fs/ramfs/ramfs.o matches
+Binary file fs/char_dev.o matches
+Binary file fs/filesystems.o matches
+Binary file fs/fat/built-in.o matches
+Binary file fs/fat/nfs.o matches
+Binary file fs/fat/namei_vfat.o matches
+Binary file fs/fat/file.o matches
+Binary file fs/fat/msdos.o matches
+Binary file fs/fat/dir.o matches
+Binary file fs/fat/namei_msdos.o matches
+Binary file fs/fat/fatent.o matches
+Binary file fs/fat/inode.o matches
+Binary file fs/fat/vfat.o matches
+Binary file fs/fat/fat.o matches
+Binary file fs/fat/cache.o matches
+Binary file fs/fat/misc.o matches
+Binary file fs/seq_file.o matches
+Binary file fs/locks.o matches
+Binary file fs/fcntl.o matches
+Binary file fs/open.o matches
+Binary file fs/sysfs/built-in.o matches
+Binary file fs/sysfs/file.o matches
+Binary file fs/sysfs/group.o matches
+Binary file fs/sysfs/dir.o matches
+Binary file fs/anon_inodes.o matches
+Binary file fs/xattr.o matches
+Binary file fs/super.o matches
+Binary file fs/devpts/built-in.o matches
+Binary file fs/devpts/devpts.o matches
+Binary file fs/devpts/inode.o matches
+Binary file fs/splice.o matches
+Binary file fs/cramfs/built-in.o matches
+Binary file fs/cramfs/cramfs.o matches
+Binary file fs/cramfs/uncompress.o matches
+Binary file fs/cramfs/inode.o matches
+Binary file fs/file.o matches
+Binary file fs/posix_acl.o matches
+Binary file fs/attr.o matches
+Binary file fs/signalfd.o matches
+Binary file fs/buffer.o matches
+Binary file fs/notify/dnotify/built-in.o matches
+Binary file fs/notify/dnotify/dnotify.o matches
+Binary file fs/notify/built-in.o matches
+Binary file fs/notify/fsnotify.o matches
+Binary file fs/notify/group.o matches
+Binary file fs/notify/fdinfo.o matches
+Binary file fs/notify/inotify/built-in.o matches
+Binary file fs/notify/inotify/inotify_fsnotify.o matches
+Binary file fs/notify/inotify/inotify_user.o matches
+Binary file fs/notify/mark.o matches
+Binary file fs/notify/notification.o matches
+Binary file fs/ext2/namei.o matches
+Binary file fs/ext2/built-in.o matches
+Binary file fs/ext2/ext2.o matches
+Binary file fs/ext2/ialloc.o matches
+Binary file fs/ext2/super.o matches
+Binary file fs/ext2/file.o matches
+Binary file fs/ext2/balloc.o matches
+Binary file fs/ext2/dir.o matches
+Binary file fs/ext2/inode.o matches
+Binary file fs/nls/built-in.o matches
+Binary file fs/nls/nls_base.o matches
+Binary file fs/exec.o matches
+Binary file fs/binfmt_elf.o matches
+Binary file fs/proc/built-in.o matches
+Binary file fs/proc/cpuinfo.o matches
+Binary file fs/proc/namespaces.o matches
+Binary file fs/proc/generic.o matches
+Binary file fs/proc/self.o matches
+Binary file fs/proc/task_mmu.o matches
+Binary file fs/proc/array.o matches
+Binary file fs/proc/version.o matches
+Binary file fs/proc/fd.o matches
+Binary file fs/proc/proc_tty.o matches
+Binary file fs/proc/interrupts.o matches
+Binary file fs/proc/devices.o matches
+Binary file fs/proc/meminfo.o matches
+Binary file fs/proc/loadavg.o matches
+Binary file fs/proc/page.o matches
+Binary file fs/proc/cmdline.o matches
+Binary file fs/proc/base.o matches
+Binary file fs/proc/softirqs.o matches
+Binary file fs/proc/proc.o matches
+Binary file fs/proc/root.o matches
+Binary file fs/proc/uptime.o matches
+Binary file fs/proc/inode.o matches
+Binary file fs/proc/kmsg.o matches
+Binary file fs/proc/stat.o matches
+Binary file fs/proc/proc_sysctl.o matches
+Binary file fs/proc/consoles.o matches
+Binary file fs/proc/thread_self.o matches
+Binary file fs/aio.o matches
+Binary file fs/namespace.o matches
+Binary file fs/select.o matches
+Binary file fs/eventpoll.o matches
+Binary file fs/nsfs.o matches
+Binary file fs/sync.o matches
+Binary file fs/drop_caches.o matches
+Binary file fs/libfs.o matches
+Binary file fs/inode.o matches
+Binary file fs/direct-io.o matches
+Binary file fs/dcache.o matches
+Binary file fs/eventfd.o matches
+Binary file fs/timerfd.o matches
+Binary file fs/file_table.o matches
+Binary file fs/romfs/built-in.o matches
+Binary file fs/romfs/super.o matches
+Binary file fs/romfs/romfs.o matches
+Binary file fs/pipe.o matches
+Binary file fs/fs_struct.o matches
+Binary file fs/kernfs/built-in.o matches
+Binary file fs/kernfs/file.o matches
+Binary file fs/kernfs/dir.o matches
+Binary file fs/kernfs/inode.o matches
+Binary file fs/kernfs/mount.o matches
+Binary file fs/kernfs/symlink.o matches
+Binary file init/built-in.o matches
+Binary file init/initramfs.o matches
+Binary file init/main.o matches
+Binary file init/do_mounts_initrd.o matches
+Binary file init/calibrate.o matches
+Binary file init/mounts.o matches
+Binary file init/do_mounts.o matches
+Binary file kernel/built-in.o matches
+Binary file kernel/capability.o matches
+Binary file kernel/futex.o matches
+Binary file kernel/user.o matches
+Binary file kernel/async.o matches
+Binary file kernel/exit.o matches
+Binary file kernel/printk/built-in.o matches
+Binary file kernel/printk/printk.o matches
+Binary file kernel/reboot.o matches
+Binary file kernel/fork.o matches
+Binary file kernel/sysctl_binary.o matches
+Binary file kernel/range.o matches
+Binary file kernel/signal.o matches
+Binary file kernel/ksysfs.o matches
+Binary file kernel/exec_domain.o matches
+Binary file kernel/kallsyms.o matches
+Binary file kernel/kmod.o matches
+Binary file kernel/pid.o matches
+Binary file kernel/resource.o matches
+Binary file kernel/params.o matches
+Binary file kernel/cred.o matches
+Binary file kernel/hung_task.o matches
+Binary file kernel/module.o matches
+Binary file kernel/irq/built-in.o matches
+Binary file kernel/irq/devres.o matches
+Binary file kernel/irq/handle.o matches
+Binary file kernel/irq/irqdesc.o matches
+Binary file kernel/irq/chip.o matches
+Binary file kernel/irq/spurious.o matches
+Binary file kernel/irq/dummychip.o matches
+Binary file kernel/irq/irqdomain.o matches
+Binary file kernel/irq/generic-chip.o matches
+Binary file kernel/irq/pm.o matches
+Binary file kernel/irq/proc.o matches
+Binary file kernel/irq/manage.o matches
+Binary file kernel/workqueue.o matches
+Binary file kernel/ptrace.o matches
+Binary file kernel/time/built-in.o matches
+Binary file kernel/time/tick-sched.o matches
+Binary file kernel/time/timer_list.o matches
+Binary file kernel/time/itimer.o matches
+Binary file kernel/time/hrtimer.o matches
+Binary file kernel/time/timer.o matches
+Binary file kernel/time/clockevents.o matches
+Binary file kernel/time/posix-clock.o matches
+Binary file kernel/time/timekeeping.o matches
+Binary file kernel/time/tick-oneshot.o matches
+Binary file kernel/time/ntp.o matches
+Binary file kernel/time/sched_clock.o matches
+Binary file kernel/time/jiffies.o matches
+Binary file kernel/time/tick-common.o matches
+Binary file kernel/time/posix-cpu-timers.o matches
+Binary file kernel/time/alarmtimer.o matches
+Binary file kernel/time/clocksource.o matches
+Binary file kernel/sched/built-in.o matches
+Binary file kernel/sched/idle.o matches
+Binary file kernel/sched/wait.o matches
+Binary file kernel/sched/debug.o matches
+Binary file kernel/sched/fair.o matches
+Binary file kernel/sched/deadline.o matches
+Binary file kernel/sched/core.o matches
+Binary file kernel/sched/idle_task.o matches
+Binary file kernel/sched/rt.o matches
+Binary file kernel/sched/cputime.o matches
+Binary file kernel/rcu/built-in.o matches
+Binary file kernel/rcu/tree.o matches
+Binary file kernel/rcu/update.o matches
+Binary file kernel/rcu/srcu.o matches
+Binary file kernel/softirq.o matches
+Binary file kernel/pid_namespace.o matches
+Binary file kernel/notifier.o matches
+Binary file kernel/extable.o matches
+Binary file kernel/watchdog.o matches
+Binary file kernel/irq_work.o matches
+Binary file kernel/sys.o matches
+Binary file kernel/locking/built-in.o matches
+Binary file kernel/locking/rtmutex-debug.o matches
+Binary file kernel/locking/rwsem-xadd.o matches
+Binary file kernel/locking/mutex-debug.o matches
+Binary file kernel/locking/rtmutex.o matches
+Binary file kernel/locking/spinlock_debug.o matches
+Binary file kernel/locking/mutex.o matches
+Binary file kernel/kthread.o matches
+Binary file kernel/up.o matches
+Binary file kernel/utsname.o matches
+Binary file kernel/power/process.o matches
+Binary file kernel/power/built-in.o matches
+Binary file kernel/power/main.o matches
+Binary file kernel/power/qos.o matches
+Binary file kernel/power/suspend.o matches
+Binary file kernel/panic.o matches
+Documentation/serial/n_gsm.txt:for example GPS), starting with minor 1 (DLC0 is reserved for the management
+Documentation/devicetree/bindings/arm/shmobile.txt:  - Mackerel (R0P7372LC0016RL, AP4 EVM 2nd)
+Documentation/video4linux/bttv/Cards:- 256 bytes EEPROM: Microchip 24LC02B or Philips 8582E2Y
+Documentation/video4linux/bttv/Cards:  I2C address 0xa0 (24LC02B also responds to 0xa2-0xaf)
+Documentation/video4linux/bttv/ICs:Microchip 24LC02B or
+Documentation/video4linux/bttv/ICs:		 I2C 0xa0-0xa1, (24LC02B also responds to 0xa2-0xaf)
+Documentation/DocBook/media/dvbstb.png.b64:cuQIC6UaBQYGCgMDAyET/1fHaMGCBYiKikJgYGCdDHVpaWkICwuDnp4eLC0tC2xvArysmnX9+nUk
+Documentation/DocBook/media/vbi_hsync.gif.b64:ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+Documentation/DocBook/media/selection.png.b64:xyz1emNDQRNc10NYVOoieQl0jnoNN2KWXyoo2jMH0lnbfKTdzm5nAAA4bXyzMJnyXHVLC0FA7fsV
+Documentation/DocBook/media/selection.png.b64:barlH3nPme2y5h7+LC0zNlACdnaq/r5+v/Zzh0NCIADotsJIUBRPWAQ1fjg/BSKxQc+WQGhp+fd/
+Binary file block/built-in.o matches
+Binary file block/bio.o matches
+Binary file block/blk-exec.o matches
+Binary file block/blk-tag.o matches
+Binary file block/blk-mq-sysfs.o matches
+Binary file block/partition-generic.o matches
+Binary file block/blk-ioc.o matches
+Binary file block/blk-sysfs.o matches
+Binary file block/blk-settings.o matches
+Binary file block/elevator.o matches
+Binary file block/blk-merge.o matches
+Binary file block/blk-core.o matches
+Binary file block/deadline-iosched.o matches
+Binary file block/genhd.o matches
+Binary file block/blk-mq-tag.o matches
+Binary file block/partitions/check.o matches
+Binary file block/partitions/built-in.o matches
+Binary file block/partitions/msdos.o matches
+Binary file block/scsi_ioctl.o matches
+Binary file block/cfq-iosched.o matches
+Binary file block/blk-lib.o matches
+Binary file block/blk-mq.o matches
+Binary file block/blk-timeout.o matches
+Binary file block/blk-flush.o matches
+Binary file drivers/irqchip/built-in.o matches
+Binary file drivers/irqchip/irq-vic.o matches
+Binary file drivers/built-in.o matches
+Binary file drivers/char/built-in.o matches
+Binary file drivers/char/mem.o matches
+Binary file drivers/char/hw_random/built-in.o matches
+Binary file drivers/char/hw_random/core.o matches
+Binary file drivers/char/hw_random/rng-core.o matches
+Binary file drivers/char/random.o matches
+Binary file drivers/char/misc.o matches
+Binary file drivers/hid/built-in.o matches
+Binary file drivers/hid/hid-kensington.o matches
+Binary file drivers/hid/hid-monterey.o matches
+Binary file drivers/hid/hid-belkin.o matches
+Binary file drivers/hid/hid-cherry.o matches
+Binary file drivers/hid/hid-plantronics.o matches
+Binary file drivers/hid/hid-ezkey.o matches
+Binary file drivers/hid/hid.o matches
+Binary file drivers/hid/hid-input.o matches
+Binary file drivers/hid/hid-chicony.o matches
+Binary file drivers/hid/hid-generic.o matches
+Binary file drivers/hid/hid-microsoft.o matches
+Binary file drivers/hid/hid-a4tech.o matches
+Binary file drivers/hid/hid-cypress.o matches
+Binary file drivers/hid/hid-apple.o matches
+Binary file drivers/hid/hid-core.o matches
+Binary file drivers/gpio/built-in.o matches
+Binary file drivers/gpio/devres.o matches
+Binary file drivers/gpio/gpiolib.o matches
+Binary file drivers/gpio/gpiolib-of.o matches
+Binary file drivers/base/built-in.o matches
+Binary file drivers/base/devres.o matches
+Binary file drivers/base/dma-mapping.o matches
+Binary file drivers/base/dma-coherent.o matches
+Binary file drivers/base/pinctrl.o matches
+Binary file drivers/base/attribute_container.o matches
+Binary file drivers/base/container.o matches
+Binary file drivers/base/cacheinfo.o matches
+Binary file drivers/base/platform.o matches
+Binary file drivers/base/firmware_class.o matches
+Binary file drivers/base/dd.o matches
+Binary file drivers/base/driver.o matches
+Binary file drivers/base/syscore.o matches
+Binary file drivers/base/core.o matches
+Binary file drivers/base/module.o matches
+Binary file drivers/base/bus.o matches
+Binary file drivers/base/topology.o matches
+Binary file drivers/base/class.o matches
+Binary file drivers/base/power/built-in.o matches
+Binary file drivers/base/power/main.o matches
+Binary file drivers/base/power/sysfs.o matches
+Binary file drivers/base/power/clock_ops.o matches
+Binary file drivers/base/power/common.o matches
+Binary file drivers/base/power/qos.o matches
+Binary file drivers/base/power/runtime.o matches
+Binary file drivers/base/power/wakeup.o matches
+Binary file drivers/base/component.o matches
+Binary file drivers/base/cpu.o matches
+Binary file drivers/base/firmware.o matches
+Binary file drivers/scsi/built-in.o matches
+Binary file drivers/scsi/scsi_lib.o matches
+Binary file drivers/scsi/scsi_mod.o matches
+Binary file drivers/scsi/scsi_proc.o matches
+Binary file drivers/scsi/scsi_error.o matches
+Binary file drivers/scsi/scsi_sysfs.o matches
+Binary file drivers/scsi/sg.o matches
+Binary file drivers/scsi/scsi_devinfo.o matches
+Binary file drivers/scsi/scsi_scan.o matches
+Binary file drivers/scsi/hosts.o matches
+Binary file drivers/scsi/constants.o matches
+Binary file drivers/scsi/scsi_ioctl.o matches
+Binary file drivers/scsi/scsi.o matches
+drivers/scsi/pcmcia/qlogic_stub.c:	PCMCIA_DEVICE_PROD_ID12("KME ", "KXLC003", 0x82375a27, 0xf68e5bf7),
+drivers/scsi/pcmcia/qlogic_stub.c:	PCMCIA_DEVICE_PROD_ID12("KME ", "KXLC004", 0x82375a27, 0x68eace54),
+drivers/scsi/pcmcia/qlogic_stub.c:	PCMCIA_DEVICE_PROD_ID123("KME", "KXLC002", "00", 0x3faee676, 0x81896b61, 0xf99f065f),
+Binary file drivers/scsi/scsi_pm.o matches
+drivers/media/common/b2c2/flexcop-eeprom.c:/*EEPROM (Skystar2 has one "24LC08B" chip on board) */
+drivers/media/platform/omap3isp/ispccp2.c:	CCP2_PRINT_REGISTER(isp, LC01_IRQENABLE);
+drivers/media/platform/omap3isp/ispccp2.c:	CCP2_PRINT_REGISTER(isp, LC01_IRQSTATUS);
+drivers/media/platform/omap3isp/ispccp2.c:	val = ISPCCP2_LC01_IRQSTATUS_LC0_FIFO_OVF_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:	      ISPCCP2_LC01_IRQSTATUS_LC0_CRC_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:	      ISPCCP2_LC01_IRQSTATUS_LC0_FSP_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:	      ISPCCP2_LC01_IRQSTATUS_LC0_FW_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:	      ISPCCP2_LC01_IRQSTATUS_LC0_FSC_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:	      ISPCCP2_LC01_IRQSTATUS_LC0_SSC_IRQ;
+drivers/media/platform/omap3isp/ispccp2.c:	isp_reg_writel(isp, val, OMAP3_ISP_IOMEM_CCP2, ISPCCP2_LC01_IRQSTATUS);
+drivers/media/platform/omap3isp/ispccp2.c:	isp_reg_set(isp, OMAP3_ISP_IOMEM_CCP2, ISPCCP2_LC01_IRQENABLE, val);
+drivers/media/platform/omap3isp/ispccp2.c:	static const u32 ISPCCP2_LC01_ERROR =
+drivers/media/platform/omap3isp/ispccp2.c:		ISPCCP2_LC01_IRQSTATUS_LC0_FIFO_OVF_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:		ISPCCP2_LC01_IRQSTATUS_LC0_CRC_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:		ISPCCP2_LC01_IRQSTATUS_LC0_FSP_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:		ISPCCP2_LC01_IRQSTATUS_LC0_FW_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:		ISPCCP2_LC01_IRQSTATUS_LC0_FSC_IRQ |
+drivers/media/platform/omap3isp/ispccp2.c:		ISPCCP2_LC01_IRQSTATUS_LC0_SSC_IRQ;
+drivers/media/platform/omap3isp/ispccp2.c:				      ISPCCP2_LC01_IRQSTATUS);
+drivers/media/platform/omap3isp/ispccp2.c:		       ISPCCP2_LC01_IRQSTATUS);
+drivers/media/platform/omap3isp/ispccp2.c:	if (lcx_irqstatus & ISPCCP2_LC01_ERROR) {
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQENABLE		(0x00C)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS		(0x010)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_FS_IRQ	(1 << 11)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_LE_IRQ	(1 << 10)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_LS_IRQ	(1 << 9)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_FE_IRQ	(1 << 8)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_COUNT_IRQ	(1 << 7)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_FIFO_OVF_IRQ	(1 << 5)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_CRC_IRQ	(1 << 4)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_FSP_IRQ	(1 << 3)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_FW_IRQ	(1 << 2)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_FSC_IRQ	(1 << 1)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCP2_LC01_IRQSTATUS_LC0_SSC_IRQ	(1 << 0)
+drivers/media/platform/omap3isp/ispreg.h:#define IRQ0ENABLE_CCP2_LC0_IRQ			(1 << 4)
+drivers/media/platform/omap3isp/ispreg.h:						IRQ0ENABLE_CCP2_LC0_IRQ | \
+drivers/media/platform/omap3isp/ispreg.h:#define IRQ0STATUS_CCP2_LC0_IRQ			(1 << 4)
+drivers/media/platform/omap3isp/ispreg.h:						IRQ0STATUS_CCP2_LC0_IRQ)
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCDC_COLPTN_CP0PLC0_SHIFT		0
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCDC_COLPTN_CP1PLC0_SHIFT		8
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCDC_COLPTN_CP2PLC0_SHIFT		16
+drivers/media/platform/omap3isp/ispreg.h:#define ISPCCDC_COLPTN_CP3PLC0_SHIFT		24
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gr_Cy << ISPCCDC_COLPTN_CP0PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_B_Mg  << ISPCCDC_COLPTN_CP1PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gr_Cy << ISPCCDC_COLPTN_CP2PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_B_Mg  << ISPCCDC_COLPTN_CP3PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_R_Ye  << ISPCCDC_COLPTN_CP0PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gb_G  << ISPCCDC_COLPTN_CP1PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_R_Ye  << ISPCCDC_COLPTN_CP2PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gb_G  << ISPCCDC_COLPTN_CP3PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_B_Mg  << ISPCCDC_COLPTN_CP0PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gr_Cy << ISPCCDC_COLPTN_CP1PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_B_Mg  << ISPCCDC_COLPTN_CP2PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gr_Cy << ISPCCDC_COLPTN_CP3PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gb_G  << ISPCCDC_COLPTN_CP0PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_R_Ye  << ISPCCDC_COLPTN_CP1PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_Gb_G  << ISPCCDC_COLPTN_CP2PLC0_SHIFT |
+drivers/media/platform/omap3isp/ispccdc.c:	ISPCCDC_COLPTN_R_Ye  << ISPCCDC_COLPTN_CP3PLC0_SHIFT |
+drivers/media/pci/cx23885/netup-eeprom.c: * 24LC02 EEPROM driver in conjunction with NetUP Dual DVB-S2 CI card
+drivers/media/pci/cx23885/netup-eeprom.h: * 24LC02 EEPROM driver in conjunction with NetUP Dual DVB-S2 CI card
+Binary file drivers/tty/built-in.o matches
+Binary file drivers/tty/tty_ioctl.o matches
+Binary file drivers/tty/n_tty.o matches
+Binary file drivers/tty/tty_port.o matches
+Binary file drivers/tty/tty_ldisc.o matches
+Binary file drivers/tty/tty_ldsem.o matches
+Binary file drivers/tty/serial/built-in.o matches
+Binary file drivers/tty/serial/samsung.o matches
+Binary file drivers/tty/serial/8250/built-in.o matches
+Binary file drivers/tty/serial/8250/8250_core.o matches
+Binary file drivers/tty/serial/8250/8250.o matches
+drivers/tty/serial/bfin_sport_uart.c:		"LSETUP(.Lloop_s, .Lloop_e) LC0 = %[lc];"
+drivers/tty/serial/bfin_sport_uart.c:		: "ASTAT", "LB0", "LC0", "LT0"
+Binary file drivers/tty/serial/serial_core.o matches
+Binary file drivers/tty/tty_io.o matches
+Binary file drivers/tty/vt/built-in.o matches
+Binary file drivers/tty/vt/vc_screen.o matches
+Binary file drivers/tty/vt/keyboard.o matches
+Binary file drivers/tty/vt/vt.o matches
+Binary file drivers/tty/vt/selection.o matches
+Binary file drivers/tty/tty_buffer.o matches
+Binary file drivers/tty/sysrq.o matches
+Binary file drivers/tty/tty_mutex.o matches
+Binary file drivers/tty/pty.o matches
+drivers/eisa/eisa.ids:OLC0701 "Olicom ISA 16/4 Token-Ring Network Adapter"
+drivers/eisa/eisa.ids:OLC0702 "Olicom OC-3117, ISA 16/4 Adapter (NIC)"
+drivers/eisa/eisa.ids:OLC0801 "OC-3118 Olicom ISA 16/4 Token-Ring Network Adapter"
+drivers/eisa/eisa.ids:OLC0901 "Olicom EISA 16/4 Token-Ring Network Adapter"
+drivers/eisa/eisa.ids:OLC0902 "Olicom EISA 16/4 Token-Ring Network Adapter"
+drivers/eisa/eisa.ids:OLC0B01 "Olicom PCA 16/4 Token-Ring Network Adapter"
+Binary file drivers/clocksource/built-in.o matches
+Binary file drivers/clocksource/clksrc-of.o matches
+Binary file drivers/clocksource/samsung_pwm_timer.o matches
+drivers/ata/pata_pcmcia.c:		  ((pdev->card_id == PRODID_KME_KXLC005_A) ||
+drivers/ata/pata_pcmcia.c:		   (pdev->card_id == PRODID_KME_KXLC005_B)));
+drivers/isdn/pcbit/capi.c:	/* HLC0.Length = 0; */
+Binary file drivers/block/brd.o matches
+Binary file drivers/block/built-in.o matches
+Binary file drivers/block/loop.o matches
+drivers/misc/echo/fir.h:		"LOOP dot%= LC0 = %3;\n\t"
+drivers/dma/pl330.c:#define _LC0			0x40c
+drivers/dma/pl330.c:#define LC0(n)			(_LC0 + (n)*0x20)
+Binary file drivers/video/built-in.o matches
+Binary file drivers/video/console/built-in.o matches
+Binary file drivers/video/console/dummycon.o matches
+drivers/ide/ide-cs.c:	      ((link->card_id == PRODID_KME_KXLC005_A) ||
+drivers/ide/ide-cs.c:	       (link->card_id == PRODID_KME_KXLC005_B)));
+drivers/ide/ide-cs.c:    /* special setup for KXLC005 card */
+Binary file drivers/clk/built-in.o matches
+Binary file drivers/clk/clk-conf.o matches
+Binary file drivers/clk/clk-fractional-divider.o matches
+Binary file drivers/clk/clk.o matches
+Binary file drivers/clk/clk-gpio-gate.o matches
+Binary file drivers/clk/clkdev.o matches
+Binary file drivers/clk/clk-fixed-factor.o matches
+Binary file drivers/clk/clk-composite.o matches
+Binary file drivers/clk/samsung/built-in.o matches
+Binary file drivers/clk/samsung/clk.o matches
+Binary file drivers/clk/samsung/clk-s5pv210.o matches
+Binary file drivers/clk/samsung/clk-pll.o matches
+Binary file drivers/clk/samsung/clk-s5pv210-audss.o matches
+Binary file drivers/clk/clk-fixed-rate.o matches
+Binary file drivers/clk/clk-gate.o matches
+drivers/clk/shmobile/clk-r8a7740.c:		/* PLLC0/1 are configurable multiplier clocks. Register them as
+Binary file drivers/clk/clk-divider.o matches
+Binary file drivers/clk/clk-devres.o matches
+Binary file drivers/clk/clk-mux.o matches
+Binary file drivers/phy/built-in.o matches
+Binary file drivers/phy/phy-exynos-mipi-video.o matches
+Binary file drivers/phy/phy-core.o matches
+Binary file drivers/input/built-in.o matches
+Binary file drivers/input/serio/built-in.o matches
+Binary file drivers/input/serio/serio.o matches
+Binary file drivers/input/serio/serport.o matches
+Binary file drivers/input/touchscreen/built-in.o matches
+Binary file drivers/input/touchscreen/of_touchscreen.o matches
+Binary file drivers/input/evdev.o matches
+Binary file drivers/input/mousedev.o matches
+Binary file drivers/input/ff-core.o matches
+Binary file drivers/input/input-core.o matches
+Binary file drivers/input/input.o matches
+Binary file drivers/pinctrl/built-in.o matches
+Binary file drivers/pinctrl/pinconf.o matches
+Binary file drivers/pinctrl/devicetree.o matches
+Binary file drivers/pinctrl/pinmux.o matches
+Binary file drivers/pinctrl/samsung/built-in.o matches
+Binary file drivers/pinctrl/samsung/pinctrl-exynos.o matches
+Binary file drivers/pinctrl/samsung/pinctrl-samsung.o matches
+Binary file drivers/pinctrl/core.o matches
+Binary file drivers/pinctrl/pinctrl-utils.o matches
+Binary file drivers/of/built-in.o matches
+Binary file drivers/of/address.o matches
+Binary file drivers/of/platform.o matches
+Binary file drivers/of/base.o matches
+Binary file drivers/of/fdt.o matches
+Binary file drivers/of/device.o matches
+Binary file drivers/of/of_reserved_mem.o matches
+Binary file drivers/of/fdt_address.o matches
+Binary file drivers/amba/built-in.o matches
+Binary file drivers/amba/bus.o matches
+drivers/i2c/busses/i2c-highlander.c: * Supported devices: R0P7780LC0011RL, R0P7785LC0011RL
+drivers/i2c/busses/i2c-highlander.c:	 * The R0P7780LC0011RL FPGA needs a significant delay between
+drivers/i2c/busses/Kconfig:	  boards, particularly the R0P7780LC0011RL and R0P7785LC0011RL
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC00_LINK_BW_SET                                           0x00100
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC01                                                       0x00101
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC01_ENHANCED_FRAME_EN                                        0x80
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC01_LANE_COUNT_SET                                           0x1f
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC02                                                       0x00102
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC02_TRAINING_PATTERN_SET                                     0x03
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC03(l)                                            ((l) +  0x00103)
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC03_MAX_PRE_EMPHASIS_REACHED                                 0x20
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC03_PRE_EMPHASIS_SET                                         0x18
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC03_MAX_SWING_REACHED                                        0x04
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC03_VOLTAGE_SWING_SET                                        0x03
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC0F                                                       0x0010f
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC0F_LANE1_MAX_POST_CURSOR2_REACHED                           0x40
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC0F_LANE1_POST_CURSOR2_SET                                   0x30
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC0F_LANE0_MAX_POST_CURSOR2_REACHED                           0x04
+drivers/gpu/drm/nouveau/core/engine/disp/dport.h:#define DPCD_LC0F_LANE0_POST_CURSOR2_SET                                   0x03
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:		sink[1] |= DPCD_LC01_ENHANCED_FRAME_EN;
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:	return nv_wraux(outp->base.edid, DPCD_LC00_LINK_BW_SET, sink, 2);
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:	nv_rdaux(outp->base.edid, DPCD_LC02, &sink_tp, 1);
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:	sink_tp &= ~DPCD_LC02_TRAINING_PATTERN_SET;
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:	nv_wraux(outp->base.edid, DPCD_LC02, &sink_tp, 1);
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:			lpc2 = hipc | DPCD_LC0F_LANE0_MAX_POST_CURSOR2_REACHED;
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:			lpre = hipe | DPCD_LC03_MAX_SWING_REACHED; /* yes. */
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:			lvsw = hivs | DPCD_LC03_MAX_SWING_REACHED;
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:	ret = nv_wraux(outp->base.edid, DPCD_LC03(0), dp->conf, 4);
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:		ret = nv_wraux(outp->base.edid, DPCD_LC0F, dp->pc2conf, 2);
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:	int voltage = dp->conf[0] & DPCD_LC03_VOLTAGE_SWING_SET;
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:				if (dp->conf[i] & DPCD_LC03_MAX_SWING_REACHED)
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:		if ((dp->conf[0] & DPCD_LC03_VOLTAGE_SWING_SET) != voltage) {
+drivers/gpu/drm/nouveau/core/engine/disp/dport.c:			voltage = dp->conf[0] & DPCD_LC03_VOLTAGE_SWING_SET;
+drivers/gpu/drm/nouveau/core/engine/disp/outpdp.c:	ret = nv_rdaux(outp->base.edid, DPCD_LC00_LINK_BW_SET, link, 2);
+drivers/gpu/drm/nouveau/core/engine/disp/outpdp.c:	linkrate = link[0] * 27000 * (link[1] & DPCD_LC01_LANE_COUNT_SET);
+drivers/gpu/drm/nouveau/core/engine/disp/outpdp.c:		for (i = 0; i < (link[1] & DPCD_LC01_LANE_COUNT_SET); i++) {
+Binary file .git/objects/pack/pack-d80d86d3ad5bd68e5eaf14da464beaa6339867bd.idx matches
+Binary file .git/objects/pack/pack-d80d86d3ad5bd68e5eaf14da464beaa6339867bd.pack matches
+arch/hexagon/kernel/asm-offsets.c:	OFFSET(_PT_LC0SA0, pt_regs, lc0sa0);
+arch/hexagon/kernel/vm_entry.S: { memd(R0 + #_PT_LC0SA0) = R15:14; \
+arch/hexagon/kernel/vm_entry.S:		memd(R0 + #_PT_LC0SA0) = R15:14; \
+arch/hexagon/kernel/vm_entry.S:	{ R15:14 = memd(R0 + #_PT_LC0SA0); \
+arch/hexagon/kernel/vm_entry.S:	{ R15:14 = memd(R0 + #_PT_LC0SA0); \
+arch/arm/mach-orion5x/net2big-setup.c: * 0x50     | HT24LC08     | eeprom (1kB)
+arch/arm/boot/compressed/ll_char_wr.S:LC0:	.word	LC0
+arch/arm/boot/compressed/ll_char_wr.S:	adr	ip, LC0
+Binary file arch/arm/boot/compressed/head.o matches
+Binary file arch/arm/boot/compressed/vmlinux matches
+Binary file arch/arm/boot/compressed/misc.o matches
+Binary file arch/arm/boot/compressed/decompress.o matches
+arch/arm/boot/compressed/head.S:		ldrcc	r0, LC0+32
+arch/arm/boot/compressed/head.S:restart:	adr	r0, LC0
+arch/arm/boot/compressed/head.S:		.type	LC0, #object
+arch/arm/boot/compressed/head.S:LC0:		.word	LC0			@ r1
+arch/arm/boot/compressed/head.S:		.size	LC0, . - LC0
+Binary file arch/arm/kernel/process.o matches
+Binary file arch/arm/kernel/built-in.o matches
+Binary file arch/arm/kernel/devtree.o matches
+Binary file arch/arm/kernel/setup.o matches
+Binary file arch/arm/kernel/irq.o matches
+Binary file arch/arm/kernel/traps.o matches
+Binary file arch/arm/kernel/module.o matches
+Binary file arch/arm/kernel/ptrace.o matches
+Binary file arch/arm/kernel/atags_parse.o matches
+Binary file arch/arm/kernel/suspend.o matches
+Binary file arch/arm/kernel/unwind.o matches
+Binary file arch/arm/plat-samsung/built-in.o matches
+Binary file arch/arm/plat-samsung/init.o matches
+Binary file arch/arm/lib/delay.o matches
+Binary file arch/arm/lib/lib.a matches
+arch/arm/lib/delay-loop.S:.LC0:		.word	loops_per_jiffy
+arch/arm/lib/delay-loop.S:		ldr	r2, .LC0
+Binary file arch/arm/mach-s5pv210/built-in.o matches
+Binary file arch/arm/mach-s5pv210/pm.o matches
+Binary file arch/arm/mach-s5pv210/s5pv210.o matches
+arch/arm/mach-imx/mach-vpr200.c:		.name		= "CTP-CLAA070LC0ACW",
+Binary file arch/arm/vfp/built-in.o matches
+Binary file arch/arm/vfp/vfpdouble.o matches
+Binary file arch/arm/vfp/vfpmodule.o matches
+Binary file arch/arm/vfp/vfpsingle.o matches
+Binary file arch/arm/vfp/vfp.o matches
+arch/arm/mach-shmobile/clock-sh7372.c:#define PLLC01CR	IOMEM(0xe6150028)
+arch/arm/mach-shmobile/clock-sh7372.c:/* PLLC0 and PLLC1 */
+arch/arm/mach-shmobile/clock-sh7372.c:	if (__raw_readl(PLLC01CR) & (1 << 14))
+arch/arm/mach-shmobile/pm-sh7372.c:#define PLLC01STPCR IOMEM(0xe61500c8)
+arch/arm/mach-shmobile/pm-sh7372.c:		__raw_writel(0, PLLC01STPCR);
+arch/arm/mach-shmobile/pm-sh7372.c:		__raw_writel(1 << 28, PLLC01STPCR);
+arch/arm/mach-shmobile/pm-sh7372.c:		/* enter A4S sleep with PLLC0 off */
+arch/arm/mach-shmobile/pm-sh7372.c:	/* default to enter A3SM sleep with PLLC0 off */
+arch/arm/mach-shmobile/clock-r8a7740.c:#define PLLC01CR	IOMEM(0xe6150028)
+arch/arm/mach-shmobile/clock-r8a7740.c:/* PLLC0/PLLC1 */
+arch/arm/mach-shmobile/clock-r8a7740.c:	if (__raw_readl(PLLC01CR) & (1 << 14))
+Binary file arch/arm/mm/built-in.o matches
+Binary file arch/arm/mm/l2c-common.o matches
+Binary file arch/arm/mm/dma-mapping.o matches
+Binary file arch/arm/mm/cache-l2x0.o matches
+Binary file arch/arm/mm/init.o matches
+Binary file arch/arm/mm/idmap.o matches
+Binary file arch/arm/mm/fault-armv.o matches
+Binary file arch/arm/mm/mmu.o matches
+Binary file arch/arm/mm/pageattr.o matches
+Binary file arch/arm/mm/ioremap.o matches
+Binary file arch/arm/mm/fault.o matches
+arch/sh/boards/mach-ecovec24/Makefile:# Makefile for the R0P7724LC0011/21RL (EcoVec)
+arch/sh/boards/board-sh7785lcr.c: * Renesas Technology Corp. R0P7785LC0011RL Support.
+arch/sh/boards/board-sh7785lcr.c:	printk(KERN_INFO "Renesas Technology Corp. R0P7785LC0011RL support.\n");
+arch/sh/boards/Kconfig:	  Renesas "R0P7724LC0011/21RL (EcoVec)" support.
+arch/sh/boards/board-sh7757lcr.c: * Renesas R0P7757LC0012RL Support.
+arch/sh/boards/board-sh7757lcr.c:	printk(KERN_INFO "Renesas R0P7757LC0012RL support.\n");
+arch/blackfin/kernel/trace.c:	pr_notice(" LB0: %08lx    LT0: %08lx    LC0: %08lx\n",
+arch/blackfin/kernel/pseudodbg.c:	"LC0",   "LT0",     "LB0",    "LC1",   "LT1",   "LB1",   "CYCLES", "CYCLES2",
+arch/blackfin/kernel/kgdb.c:	gdb_regs[BFIN_LC0] = regs->lc0;
+arch/blackfin/kernel/kgdb.c:	regs->lc0 = gdb_regs[BFIN_LC0];
+arch/blackfin/kernel/asm-offsets.c:	DEFINE(PT_LC0, offsetof(struct pt_regs, lc0));
+arch/blackfin/kernel/reboot.c:		"LSETUP (1f, 1f) LC0 = %0\n"
+arch/blackfin/kernel/reboot.c:		: "LC0", "LB0", "LT0"
+arch/blackfin/lib/strncpy.S:	LSETUP (1f, 2f) LC0 = P2;
+arch/blackfin/lib/strncpy.S:	R2 = LC0;
+arch/blackfin/lib/strncpy.S:	LSETUP(5f, 5f) LC0;
+arch/blackfin/lib/memset.S:	LSETUP (.Lquad_loop , .Lquad_loop) LC0=P1;
+arch/blackfin/lib/memset.S:	LSETUP (.Lbyte_loop , .Lbyte_loop) LC0=P2;
+arch/blackfin/lib/udivsi3.S:  LSETUP(.Lulst, .Lulend) LC0 = P1; /* Set loop counter */
+arch/blackfin/lib/outs.S:	LSETUP( .Llong_loop_s, .Llong_loop_e) LC0 = P2;
+arch/blackfin/lib/outs.S:	LSETUP( .Lword_loop_s, .Lword_loop_e) LC0 = P2;
+arch/blackfin/lib/outs.S:	LSETUP( .Lbyte_loop_s, .Lbyte_loop_e) LC0 = P2;
+arch/blackfin/lib/outs.S:	LSETUP( .Lword8_loop_s, .Lword8_loop_e) LC0 = P2;
+arch/blackfin/lib/memchr.S:	LSETUP (.Lbyte_loop_s, .Lbyte_loop_e) LC0=P2;
+arch/blackfin/lib/memcmp.S:	LSETUP (.Lquad_loop_s, .Lquad_loop_e) LC0=P1;
+arch/blackfin/lib/memcmp.S:	LSETUP (.Lbyte_loop_s, .Lbyte_loop_e) LC0=P2;
+arch/blackfin/lib/divsi3.S:  LSETUP(.Llst,.Llend)  LC0 = P1;   /* Setup loop */
+arch/blackfin/lib/ins.S:	LSETUP(1f, 2f) LC0 = P2; \
+arch/blackfin/lib/memcpy.S:	LSETUP(.Lthree_start, .Lthree_end) LC0=P2;
+arch/blackfin/lib/memcpy.S:	LSETUP(.Lword_loops, .Lword_loope) LC0=P2;
+arch/blackfin/lib/memcpy.S:	LSETUP (.Lbyte_start, .Lbyte_end) LC0=P2;
+arch/blackfin/lib/memcpy.S:	LSETUP(.Lover_start, .Lover_end) LC0=P2;
+arch/blackfin/lib/memmove.S:	LSETUP (.Lquad_loops, .Lquad_loope) LC0=P1;
+arch/blackfin/lib/memmove.S:.Lbytes:     LSETUP (.Lbyte2_s, .Lbyte2_e) LC0=P2;
+arch/blackfin/lib/memmove.S:	LSETUP (.Lol_s, .Lol_e) LC0 = P2;
+arch/blackfin/mach-bf561/secondary.S:	LC0 = r6;
+arch/blackfin/include/uapi/asm/ptrace.h:#define PT_LC0 60
+arch/blackfin/include/asm/bfin_ppi.h:#define EPPI_CTL_POLC0                  0x00000000    /* POLC: Clock/Sync polarity mode 0 */
+arch/blackfin/include/asm/dpmc.h:	[--sp] = LC0;
+arch/blackfin/include/asm/dpmc.h:	LC0 = [sp++];
+arch/blackfin/include/asm/delay.h:			"LSETUP(1f, 1f) LC0 = %0;"
+arch/blackfin/include/asm/delay.h:			: "LT0", "LB0", "LC0"
+arch/blackfin/include/asm/context.S:	[--sp] = LC0;
+arch/blackfin/include/asm/context.S:	[--sp] = LC0;
+arch/blackfin/include/asm/context.S:	[--sp] = LC0;
+arch/blackfin/include/asm/context.S:	LC0 = [sp++];
+arch/blackfin/include/asm/context.S:	LC0 = [sp++];
+arch/blackfin/include/asm/context.S:	[--sp] = LC0;
+arch/blackfin/include/asm/context.S:	LC0 = [sp++];
+arch/blackfin/include/asm/kgdb.h:  BFIN_LC0,
+arch/blackfin/mach-common/entry.S:	R7=LC0;
+arch/blackfin/mach-common/entry.S:	LC0=R7;
+arch/blackfin/mach-common/entry.S:	[--sp] = LC0;
+arch/blackfin/mach-common/entry.S:	LC0 = R7;
+arch/blackfin/mach-common/entry.S:	LSETUP (.Lstart, .Lend) LC0;
+arch/blackfin/mach-common/entry.S:	LC0 = [sp++];
+arch/blackfin/mach-common/interrupt.S:	[--sp] = LC0;
+arch/blackfin/mach-common/head.S:	LC0 = r6;
+arch/mips/include/asm/sgi/ioc.h:#define SGIOC_RESET_LC0OFF	0x10	/* guiness: turn led off (red, else green) */
+arch/mips/sgi-ip22/ip22-hpc.c:			 SGIOC_RESET_LC0OFF);
+arch/mips/sgi-ip22/ip22-reset.c:	sgi_ioc_reset ^= (SGIOC_RESET_LC0OFF|SGIOC_RESET_LC1OFF);
+arch/unicore32/boot/compressed/head.S:		adr	r0, LC0
+arch/unicore32/boot/compressed/head.S:		.type	LC0, #object
+arch/unicore32/boot/compressed/head.S:LC0:		.word	LC0			@ r1
+arch/unicore32/boot/compressed/head.S:		.size	LC0, . - LC0
+arch/unicore32/lib/delay.S:.LC0:		.word	loops_per_jiffy
+arch/unicore32/lib/delay.S:		ldw	r2, .LC0
+arch/powerpc/boot/dcr.h:#define CPR0_PLLC0	0x40
+arch/powerpc/include/asm/cpm2.h:#define SIUMCR_BCTLC00	0x00000000	/* Buffer Control Configuration	*/
+arch/powerpc/include/asm/cpm2.h:#define SIUMCR_BCTLC01	0x00010000	/* - " -			*/
+arch/m68k/kernel/setup_mm.c:	 * [what do we do with buggy 68LC040s? if we have problems
+arch/m68k/Kconfig.cpu:	  If you anticipate running this kernel on a computer with a MC68LC040
+arch/m68k/Kconfig.machine:	  Q60. Select your CPU below.  For 68LC060 don't forget to enable FPU
+arch/m68k/include/uapi/asm/bootinfo-mac.h:#define MAC_MODEL_P475F		90	/* aka: P475 w/ FPU (no LC040) */
+arch/m68k/q40/README:The Q60 has any of 68060 or 68LC060 and up to 128 MB RAM.
+Binary file lib/built-in.o matches
+Binary file lib/timerqueue.o matches
+Binary file lib/list_sort.o matches
+Binary file lib/kobject.o matches
+Binary file lib/string_helpers.o matches
+Binary file lib/klist.o matches
+Binary file lib/devres.o matches
+Binary file lib/scatterlist.o matches
+Binary file lib/smp_processor_id.o matches
+Binary file lib/decompress_unlzo.o matches
+Binary file lib/lib.a matches
+Binary file lib/decompress_unlz4.o matches
+Binary file lib/decompress_unlzma.o matches
+Binary file lib/flex_proportions.o matches
+Binary file lib/fdt_strerror.o matches
+Binary file lib/decompress_bunzip2.o matches
+Binary file lib/kobject_uevent.o matches
+Binary file lib/earlycpio.o matches
+Binary file lib/radix-tree.o matches
+Binary file lib/idr.o matches
+Binary file lib/vsprintf.o matches
+Binary file lib/decompress_inflate.o matches
+Binary file lib/proportions.o matches
+Binary file lib/fdt_empty_tree.o matches
+Binary file lib/seq_buf.o matches
+Binary file lib/swiotlb.o matches
+Binary file lib/bug.o matches
+Binary file lib/bitmap.o matches
+Binary file lib/plist.o matches
+Binary file lib/hexdump.o matches
+Binary file lib/percpu_ida.o matches
+Binary file lib/decompress_unxz.o matches
+Binary file lib/xz/built-in.o matches
+Binary file lib/xz/xz_dec.o matches
+Binary file lib/xz/xz_dec_stream.o matches
+Binary file lib/show_mem.o matches
+Binary file lib/fdt_ro.o matches
+Binary file lib/ratelimit.o matches
+Binary file lib/dump_stack.o matches
+Binary file lib/syscall.o matches
+Binary file lib/genalloc.o matches
+Binary file lib/percpu-refcount.o matches
+Binary file lib/zlib_inflate/built-in.o matches
+Binary file lib/zlib_inflate/inffast.o matches
+Binary file lib/zlib_inflate/zlib_inflate.o matches
+Binary file lib/zlib_inflate/inflate.o matches
+include/video/radeon.h:#define SUBPIC_LC0_OFFSET                      0x0564
+include/dt-bindings/clock/r8a7740-clock.h:#define R8A7740_CLK_PLLC0	1
+include/pcmcia/ciscode.h:#define PRODID_KME_KXLC005_A		0x0704
+include/pcmcia/ciscode.h:#define PRODID_KME_KXLC005_B		0x2904
+Binary file vmlinux.o matches
+Binary file mm/built-in.o matches
+Binary file mm/vmscan.o matches
+Binary file mm/dmapool.o matches
+Binary file mm/memory.o matches
+Binary file mm/oom_kill.o matches
+Binary file mm/page_alloc.o matches
+Binary file mm/slub.o matches
+Binary file mm/rmap.o matches
+Binary file mm/debug.o matches
+Binary file mm/mm_init.o matches
+Binary file mm/backing-dev.o matches
+Binary file mm/vmstat.o matches
+Binary file mm/vmalloc.o matches
+Binary file mm/percpu.o matches
+Binary file mm/compaction.o matches
+Binary file mm/mmap.o matches
+Binary file mm/slab_common.o matches
+Binary file mm/fremap.o matches
+Binary file mm/vmacache.o matches
+Binary file mm/swap_state.o matches
+Binary file mm/memblock.o matches
+Binary file mm/nobootmem.o matches
+Binary file mm/truncate.o matches
+Binary file mm/pgtable-generic.o matches
+Binary file mm/swap.o matches
+Binary file mm/swapfile.o matches
+Binary file mm/page-writeback.o matches
+Binary file mm/list_lru.o matches
+Binary file mm/gup.o matches
+Binary file mm/mempool.o matches
+Binary file mm/page_io.o matches
+Binary file mm/filemap.o matches
