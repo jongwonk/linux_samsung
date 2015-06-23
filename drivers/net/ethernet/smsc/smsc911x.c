@@ -1693,7 +1693,10 @@ static int smsc911x_hard_start_xmit(struct sk_buff *skb, struct net_device *dev)
 	u32 wrsz;
 	ulong bufp;
 
-	freespace = smsc911x_reg_read(pdata, TX_FIFO_INF) & TX_FIFO_INF_TDFREE_;
+	freespace = smsc911x_reg_read(pdata, TX_FIFO_INF);
+	printk("freespace:%X\n", freespace);
+	printk("ID_REV:%X\n", smsc911x_reg_read(pdata, ID_REV));
+	freespace &= TX_FIFO_INF_TDFREE_;
 
 	if (unlikely(freespace < TX_FIFO_LOW_THRESHOLD))
 		SMSC_WARN(pdata, tx_err,
@@ -1828,6 +1831,7 @@ static irqreturn_t smsc911x_irqhandler(int irq, void *dev_id)
 	u32 temp;
 	
 	if (unlikely(intsts & inten & INT_STS_SW_INT_)) {
+		printk("1\n");
 		temp = smsc911x_reg_read(pdata, INT_EN);
 		temp &= (~INT_EN_SW_INT_EN_);
 		smsc911x_reg_write(pdata, INT_EN, temp);
@@ -1838,6 +1842,7 @@ static irqreturn_t smsc911x_irqhandler(int irq, void *dev_id)
 	}
 
 	if (unlikely(intsts & inten & INT_STS_RXSTOP_INT_)) {
+		printk("2\n");
 		/* Called when there is a multicast update scheduled and
 		 * it is now safe to complete the update */
 		SMSC_TRACE(pdata, intr, "RX Stop interrupt");
@@ -1848,6 +1853,7 @@ static irqreturn_t smsc911x_irqhandler(int irq, void *dev_id)
 	}
 
 	if (intsts & inten & INT_STS_TDFA_) {
+		printk("3\n");
 		temp = smsc911x_reg_read(pdata, FIFO_INT);
 		temp |= FIFO_INT_TX_AVAIL_LEVEL_;
 		smsc911x_reg_write(pdata, FIFO_INT, temp);
@@ -1857,13 +1863,14 @@ static irqreturn_t smsc911x_irqhandler(int irq, void *dev_id)
 	}
 
 	if (unlikely(intsts & inten & INT_STS_RXE_)) {
+		printk("4\n");
 		SMSC_TRACE(pdata, intr, "RX Error interrupt");
 		smsc911x_reg_write(pdata, INT_STS, INT_STS_RXE_);
 		serviced = IRQ_HANDLED;
 	}
 
 	if (likely(intsts & inten & INT_STS_RSFL_)) {
-		printk("smsc - 5\n");
+		printk("5\n");
 		if (likely(napi_schedule_prep(&pdata->napi))) {
 			/* Disable Rx interrupts */
 			temp = smsc911x_reg_read(pdata, INT_EN);
@@ -2441,9 +2448,6 @@ static int smsc911x_drv_probe(struct platform_device *pdev)
 			pr_warn("Could not allocate resource in OF\n");
 			return err;
 	}
-	
-	printk("1:%x %x\n",res.start,res.end);
-	
 #else
 	res = platform_get_resource_byname(pdev, IORESOURCE_MEM,
 					   "smsc911x-memory");
@@ -2462,17 +2466,15 @@ static int smsc911x_drv_probe(struct platform_device *pdev)
 	res_size = resource_size(res);
 #endif
 
-printk("res_size = %d\n",res_size);
-
 #ifdef CONFIG_OF
-/*
+
 	err = of_irq_to_resource(np,0,&irq_res);
 	if(err == 0)
 	{
 			pr_warn("Could not allocate irq in OF\n");
 			return err;
 	}
-		*/
+
 #else
 	irq_res = platform_get_resource(pdev, IORESOURCE_IRQ, 0);
 	if (!irq_res) {
@@ -2497,26 +2499,18 @@ printk("res_size = %d\n",res_size);
 		goto out_release_io_1;
 	}
 
-printk("5 - %d\n",irq_res.start);
-
 	SET_NETDEV_DEV(dev, &pdev->dev);
 
 	pdata = netdev_priv(dev);
 #ifdef CONFIG_OF	
-//				irq_get_irq_data(irq_res.start);
-	dev->irq = irq_of_parse_and_map(np, 0); //irq_res.start; // virq_to_hw(irq_res.start);
-	printk("dev->irq:%d , irq_res.start: %d\n",dev->irq,irq_res.start);
+	dev->irq = irq_res.start; // irq_of_parse_and_map(np, 0); // virq_to_hw(irq_res.start);
 	irq_flags = irq_res.flags & IRQF_TRIGGER_MASK;
-	
-	printk("6 - %d - %d\n",dev->irq,irq_flags);
-	
 	pdata->ioaddr = ioremap_nocache(res.start, res_size);	
 #else
 	dev->irq = irq_res->start;
 	irq_flags = irq_res->flags & IRQF_TRIGGER_MASK;
 	pdata->ioaddr = ioremap_nocache(res->start, res_size);	
 #endif	
-
 	pdata->dev = dev;
 	pdata->msg_enable = ((1 << debug) - 1);
 

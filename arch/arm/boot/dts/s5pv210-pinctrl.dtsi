@@ -240,7 +240,8 @@
 		gpio-controller;
 		interrupt-controller;
 		interrupt-parent = <&vic0>;
-		interrupts = <0>, <1>, <2>;
+		interrupts = <0>, <1>, <2>, <3>,
+				<4>, <5>, <6>, <7>;
 		#gpio-cells = <2>;
 		#interrupt-cells = <2>;
 	};
