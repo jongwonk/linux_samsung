@@ -724,41 +724,20 @@
 		samsung,pin-drv = <3>;
 	};
 
-	eint0: ext-int0 {
-		samsung,pins = "gph0-0";
-		samsung,pin-function = <0xf>;
-		samsung,pin-pud = <0>;
-		samsung,pin-drv = <0>;
-	};
-
 	eint6: ext-int6 {
 		samsung,pins = "gph0-6";
 		samsung,pin-function = <0xf>;
 		samsung,pin-pud = <0>;
 		samsung,pin-drv = <0>;
-	};
-					
-	eint8: ext-int8 {
-		samsung,pins = "gph1-0";
+	};	
+	
+	eint11: ext-int11 {
+		samsung,pins = "gph1-3";
 		samsung,pin-function = <0xf>;
 		samsung,pin-pud = <0>;
 		samsung,pin-drv = <0>;
 	};
-
-	eint15: ext-int15 {
-		samsung,pins = "gph1-7";
-		samsung,pin-function = <0xf>;
-		samsung,pin-pud = <0>;
-		samsung,pin-drv = <0>;
-	};
-
-	eint16: ext-int16 {
-		samsung,pins = "gph2-0";
-		samsung,pin-function = <0xf>;
-		samsung,pin-pud = <0>;
-		samsung,pin-drv = <0>;
-	};
-
+	
 	eint31: ext-int31 {
 		samsung,pins = "gph3-7";
 		samsung,pin-function = <0xf>;

@@ -1863,7 +1863,7 @@ static irqreturn_t smsc911x_irqhandler(int irq, void *dev_id)
 	}
 
 	if (unlikely(intsts & inten & INT_STS_RXE_)) {
-		printk("4\n");
+		printk("intsts:%X, inten: %X\n",intsts,inten);
 		SMSC_TRACE(pdata, intr, "RX Error interrupt");
 		smsc911x_reg_write(pdata, INT_STS, INT_STS_RXE_);
 		serviced = IRQ_HANDLED;

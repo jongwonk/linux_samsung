@@ -122,7 +122,7 @@
 
 			wakeup-interrupt-controller {
 				compatible = "samsung,exynos4210-wakeup-eint";
-				interrupts = <17>;
+				interrupts = <16>;
 				interrupt-parent = <&vic0>;
 			};
 		};
@@ -201,12 +201,15 @@
 		};
 
 		i2c0: i2c@e1800000 {
-			compatible = "samsung,s3c2440-i2c";
+			compatible = "samsung,s3c2410-i2c";
 			reg = <0xe1800000 0x1000>;
 			interrupt-parent = <&vic1>;
 			interrupts = <14>;
+			samsung,i2c-sda-delay = <100>;
+			samsung,i2c-max-bus-freq = <100000>;
 			clocks = <&clocks CLK_I2C0>;
 			clock-names = "i2c";
+			gpios = <&gpd1 0 0 &gpd1 1 0>;
 			pinctrl-names = "default";
 			pinctrl-0 = <&i2c0_bus>;
 			#address-cells = <1>;

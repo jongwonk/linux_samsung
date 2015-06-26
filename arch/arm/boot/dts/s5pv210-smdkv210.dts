@@ -41,7 +41,7 @@
 		reg = <0xA0000000 0x1000>;
 		phy-mode = "mii";
 		interrupt-parent = <&gph0>;
-		interrupts = <6>;
+		interrupts = <6 IRQ_TYPE_LEVEL_LOW>;
 		reg-io-width = <4>;
 		smsc,force-internal-phy;
 		smsc,irq-push-pull;
@@ -230,15 +230,13 @@
 &i2c0 {
 	status = "okay";
 
-	audio-codec@10 {
-		compatible = "wlf,max98088";
-		reg = <0x10>;
-	};
-
-	hidis@46 {
+	hidis-ts@46{
 		compatible = "hidis,ts";
-		reg = <0x46>;
-	};
+		reg = <0x46>;	
+		interrupt-parent = <&gph1>;		
+		interrupts = <11 IRQ_TYPE_EDGE_BOTH>;
+		interval = <29>;
+	};	
 };
 
 &i2s0 {
