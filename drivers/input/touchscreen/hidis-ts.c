@@ -39,6 +39,7 @@
 
 #ifdef CONFIG_OF
 #include <linux/of_irq.h>
+#include <linux/of_address.h>
 #endif
 
 #ifdef CONFIG_HAS_WAKELOCK
@@ -197,7 +198,6 @@ static void hidis_i2c_read_data_position(void *data)
 /* Touch Screen Report Data Position for Applications */ 
 static void hidis_touch_report_position(void *data)
 {
-	unsigned long flags;
 	struct hidis_i2c_dev *i2c_dev = (struct hidis_i2c_dev *)data;	
 	
 	if((i2c_dev->xp > 0) && (i2c_dev->yp > 0) &&
@@ -262,11 +262,10 @@ static irqreturn_t hidis_touch_isr(int irq, void *data)
 	unsigned int ret_val;
 	struct hidis_i2c_dev *i2c_dev = (struct hidis_i2c_dev *)data;		
 	
-	ret_val = readl(i2c_dev->pinbase + 0x4) & (0x1 << 3);
-	
 	spin_lock(&i2c_dev->lock);
-	i2c_dev->pen_down = (ret_val >> 3) & 0x1;
-	spin_unlock(&i2c_dev->lock);
+	
+	ret_val = readl(i2c_dev->pinbase) & 0x8;
+	i2c_dev->pen_down = ret_val;
 
 	if(i2c_dev->pen_down) {		/* Touch Pen Down */
 		//dev_dbg(&pdev->dev, 
@@ -278,13 +277,12 @@ static irqreturn_t hidis_touch_isr(int irq, void *data)
 	else {							/* Touch Pen Up */
 		// dev_dbg(&pdev->dev, 
 		printk("pen-up\n");
-
-		input_report_abs(i2c_dev->input, ABS_X, i2c_dev->xp);
-		input_report_abs(i2c_dev->input, ABS_Y, i2c_dev->yp);
 		input_report_key(i2c_dev->input, BTN_TOUCH, 0);
 		input_report_abs(i2c_dev->input, ABS_PRESSURE, 0);
 		input_sync(i2c_dev->input);
 	} 
+
+	spin_unlock(&i2c_dev->lock);
 
 	return IRQ_HANDLED;	
 }
@@ -327,38 +325,35 @@ static int hidis_i2c_probe(struct i2c_client *client, const struct i2c_device_id
 	struct device_node *np = client->dev.of_node;
 	struct hidis_i2c_dev *i2c_dev;
 	struct resource irq_res;
-	u32 clk_rate;
 	int ret, err;
 	int interval;
 
-	printk("entering %s\n",__func__);
-	
 	i2c_dev =  devm_kzalloc(&client->dev, sizeof(*i2c_dev), GFP_KERNEL);
 	if(!i2c_dev)
 		return -ENOMEM;
 	
 	i2c_dev->client = client;
-	
+	i2c_dev->dev = &client->dev;
+
 	err = of_irq_to_resource(np,0,&irq_res);
 	if(err == 0)
 	{
-		pr_warn("Could not allocate irq in OF\n");
+		pr_warn("Could not allocate irq\n");
 		return err;
 	}
-	
-	// i2c_dev->pinbase = ioremap_nocache(res->start, res_size); 
-	
+
 	i2c_dev->irq = irq_res.start;
-	printk("i2c_dev->irq: %d\n",i2c_dev->irq);
-	
+	i2c_dev->pinbase = ioremap(0xE0200C24,4);	
+
 	err = of_property_read_u32(np,"interval",&interval );
 	if(!err)
+	{
+		printk("interval: %d\n",i2c_dev->interval);
 		i2c_dev->interval = msecs_to_jiffies(interval);
+	}
 	else
 		i2c_dev->interval = msecs_to_jiffies(2);
-	
-	printk("interval: %d\n",i2c_dev->interval);
-	
+		
 	i2c_dev->input = input_allocate_device();
 
 	if (!i2c_dev->input)
@@ -420,13 +415,21 @@ static const struct of_device_id hidis_dt_ids[] = {
 MODULE_DEVICE_TABLE(of, hidis_dt_ids);
 #endif
 
+
+static struct i2c_device_id hidis_ids[] = {
+	{ "hidis-ts", 0 },
+	{ }
+};
+MODULE_DEVICE_TABLE(i2c, hidis_ids);
+
 static struct i2c_driver hidis_i2c_driver = {
 	.probe = hidis_i2c_probe,
 	.remove = hidis_i2c_remove,
 	.driver = {
-		.name = "hidis-i2c",
-		.of_match_table = hidis_dt_ids,
+		.name = "hidis-ts",
+		.of_match_table = of_match_ptr(hidis_dt_ids),
 		},
+		.id_table = hidis_ids,
 };
 
 module_i2c_driver(hidis_i2c_driver);

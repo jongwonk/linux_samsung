@@ -206,7 +206,7 @@
 			interrupt-parent = <&vic1>;
 			interrupts = <14>;
 			samsung,i2c-sda-delay = <100>;
-			samsung,i2c-max-bus-freq = <100000>;
+			samsung,i2c-max-bus-freq = <100000>;		
 			clocks = <&clocks CLK_I2C0>;
 			clock-names = "i2c";
 			gpios = <&gpd1 0 0 &gpd1 1 0>;
@@ -214,7 +214,15 @@
 			pinctrl-0 = <&i2c0_bus>;
 			#address-cells = <1>;
 			#size-cells = <0>;
-			status = "disabled";
+			
+				hidis@46{
+					compatible = "hidis,ts";
+					reg = <0x46>;
+					interval = <5>;
+					interrupt-parent = <&gph1>;
+					interrupts = <3  IRQ_TYPE_EDGE_BOTH>;
+				};
+	
 		};
 
 		i2c2: i2c@e1a00000 {

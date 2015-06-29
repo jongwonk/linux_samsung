@@ -65,94 +65,12 @@
 	clock-frequency = <24000000>;
 };
 
-&keypad {
-	linux,input-no-autorepeat;
-	linux,input-wakeup;
-	samsung,keypad-num-rows = <8>;
-	samsung,keypad-num-columns = <8>;
-	pinctrl-names = "default";
-	pinctrl-0 = <&keypad_row0>, <&keypad_row1>, <&keypad_row2>,
-			<&keypad_row3>, <&keypad_row4>, <&keypad_row5>,
-			<&keypad_row6>, <&keypad_row7>,
-			<&keypad_col0>, <&keypad_col1>, <&keypad_col2>,
-			<&keypad_col3>, <&keypad_col4>, <&keypad_col5>,
-			<&keypad_col6>, <&keypad_col7>;
-	status = "okay";
-
-	key_1 {
-		keypad,row = <0>;
-		keypad,column = <3>;
-		linux,code = <KEY_1>;
-	};
-
-	key_2 {
-		keypad,row = <0>;
-		keypad,column = <4>;
-		linux,code = <KEY_2>;
-	};
-
-	key_3 {
-		keypad,row = <0>;
-		keypad,column = <5>;
-		linux,code = <KEY_3>;
-	};
-
-	key_4 {
-		keypad,row = <0>;
-		keypad,column = <6>;
-		linux,code = <KEY_4>;
-	};
-
-	key_5 {
-		keypad,row = <0
-		>;
-		keypad,column = <7>;
-		linux,code = <KEY_5>;
-	};
-
-	key_6 {
-		keypad,row = <1>;
-		keypad,column = <3>;
-		linux,code = <KEY_A>;
-	};
-	key_7 {
-		keypad,row = <1>;
-		keypad,column = <4>;
-		linux,code = <KEY_B>;
-	};
-
-	key_8 {
-		keypad,row = <1>;
-		keypad,column = <5>;
-		linux,code = <KEY_C>;
-	};
-
-	key_9 {
-		keypad,row = <1>;
-		keypad,column = <6>;
-		linux,code = <KEY_D>;
-	};
-
-	key_10 {
-		keypad,row = <1>;
-		keypad,column = <7>;
-		linux,code = <KEY_E>;
-	};
-};
 
 &uart0 {
 	status = "okay";
 };
 
 &uart1 {
-	status = "okay";
-};
-
-&uart2 {
-	status = "okay";
-};
-
-&uart3 {
 	status = "okay";
 };
 
@@ -225,18 +143,6 @@
 
 &pwm {
 	samsung,pwm-outputs = <3>;
-};
-
-&i2c0 {
-	status = "okay";
-
-	hidis-ts@46{
-		compatible = "hidis,ts";
-		reg = <0x46>;	
-		interrupt-parent = <&gph1>;		
-		interrupts = <11 IRQ_TYPE_EDGE_BOTH>;
-		interval = <29>;
-	};	
 };
 
 &i2s0 {
